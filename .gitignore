@@ -1,0 +1,32 @@
+# Variáveis de ambiente (NUNCA subir senha real)
+.env
+.env.local
+
+# Node / Front-End
+node_modules/
+dist/
+build/
+.next/
+npm-debug.log*
+yarn-error.log*
+
+# Python / Back-End
+__pycache__/
+*.pyc
+venv/
+.venv/
+env/
+
+# Docker
+*.log
+
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Editor
+*.swp
